@@ -1,0 +1,6 @@
+.product-image{
+    background-color: yellow;
+    display: flex;
+    width: 400px;
+    height: 400px;
+}
