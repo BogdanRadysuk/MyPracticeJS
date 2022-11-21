@@ -13,7 +13,7 @@ for (let i = 0; i < 10; i++) {
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
 
 let i = 20;
-while (i){
+while (i) {
     document.write(`<h1>Lorem ipsum dolor sit.</h1>`);
     i--;
 }
@@ -21,7 +21,7 @@ while (i){
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
 
 let i = 0;
-while (i < 20){
+while (i < 20) {
     document.write(`<h1>${i} Lorem ipsum.</h1>`)
     i++;
 }
