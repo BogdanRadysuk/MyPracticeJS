@@ -123,10 +123,11 @@ for (const asd of cardSuit) {
 //     hearts:[],
 //     clubs:[]
 // }
-qwe.reduce((accumulator, card) =>{
+let asd = qwe.reduce((accumulator, card) =>{
     accumulator.spades.push(card.cardSuit)
     accumulator.diamond.push(card.cardSuit)
     accumulator.hearts.push(card.cardSuit)
     accumulator.clubs.push(card.cardSuit)
     return accumulator
     }, {spades:[], diamond:[], hearts:[], clubs:[]})
+console.log(asd)
