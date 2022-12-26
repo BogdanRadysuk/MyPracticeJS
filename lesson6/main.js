@@ -19,6 +19,8 @@ let str2 = 'javascript is cool';
 let toUppCase = str2.toUpperCase();
 console.log(toUppCase);
 
+
+
 // - Перевести до нижнього регістру наступні стрінгові значення
 let str = 'HELLO WORLD'
 let toLowerCase = str.toLowerCase()
